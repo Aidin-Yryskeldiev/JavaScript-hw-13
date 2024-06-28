@@ -1,0 +1,21 @@
+.character-card {
+	width: 200px;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+.character-card img {
+	max-width: 100%;
+	height: auto;
+}
+.alive {
+	border: 2px solid green;
+}
+.unknown {
+	border: 2px solid gray;
+}
+.dead {
+	border: 2px solid red;
+}
